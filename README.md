@@ -18,9 +18,13 @@ There is currently only one endpoint that has been customised for Python clients
 
 ## Sample Notebooks
 
-### 01 Simple Report
+### :blue_book: 01 Simple Report
 
-Shows the minimum code required to generate a cross-tabulation report in CSV (comma separated) format. It explains the *boilerplate* code that starts and ends normal Carbon processing.
+Converts two arrays of data into a cross-tabulation dataframe through the service endpoint that has been customised for the simplest possible use by Python clients.
+
+### :blue_book: 02 Classical Call Pattern
+
+Makes a series of calls to the web service using the classical usage pattern of Login &#x25ba; Open Job &#x25ba; Generate Report &#x25ba; Close Job &#x25ba; Logoff. This pattern is not customised for Python clients, it is the *classic* sequence of service calls that can be made from any client language or platform.
 
 [dotnet]: https://en.wikipedia.org/wiki/.NET
 [rcs]: https://www.redcentresoftware.com/
