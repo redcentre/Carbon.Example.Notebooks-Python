@@ -12,7 +12,7 @@ The Carbon cross-tabulation library is written using the Microsoft .NET software
 
 There is currently only one endpoint that has been customised for Python clients, but others many be published in the future to make more of the underlying API available to developers in a *Pythonic* manner.
 
-> :star: Note &mdash; Initial research has proven that Python can make direct calls to the Carbon API via the [Python.NET][pynet] package, but this technique is not supported yet. Further research on this matter happen if there sufficient interest.
+Initial research has proven that Python can make direct calls to the Carbon API via the [Python.NET][pynet] package, but this technique is not supported yet. Further research on this matter may happen if there sufficient interest.
 
 ---
 
@@ -30,6 +30,9 @@ Generates a dataframe report using data that is stored in a public cloud job.
 
 A sophisticated example of how SPSS (.sav) file can be transformed into a cross-tabulation report and presented as an attractive colour-coded heat map chart.
 
+> :star: Note &mdash; The 21MB data file read by this example can be downloaded from here: [Demo_21_24_with_Caseid.sav][sav]
+
 [dotnet]: https://en.wikipedia.org/wiki/.NET
 [rcs]: https://www.redcentresoftware.com/
 [pynet]: http://pythonnet.github.io/
+[sav]: https://systemrcs.blob.core.windows.net/download/Demo_21_24_with_Caseid.sav
