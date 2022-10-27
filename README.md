@@ -12,7 +12,7 @@ The Carbon cross-tabulation library is written using the Microsoft .NET software
 
 There is currently only one endpoint that has been customised for Python clients, but others many be published in the future to make more of the underlying API available to developers in a *Pythonic* manner.
 
-> :star: Note &mdash; Initial research has proven that Python can make direct calls to the Carbon API via the [Python.NET][pynet] package, but this technique is not supported yet. Samples and documentation may be published if there sufficient interest.
+> :star: Note &mdash; Initial research has proven that Python can make direct calls to the Carbon API via the [Python.NET][pynet] package, but this technique is not supported yet. Further research on this matter happen if there sufficient interest.
 
 ---
 
@@ -20,11 +20,15 @@ There is currently only one endpoint that has been customised for Python clients
 
 ### :blue_book: 01 Simple Report
 
-Converts two arrays of data into a cross-tabulation dataframe through the service endpoint that has been customised for the simplest possible use by Python clients.
+Converts two arrays of static data into a cross-tabulation dataframe through the service endpoint that has been customised for the simplest possible use by Python clients.
 
-### :blue_book: 02 Classical Call Pattern
+### :blue_book: 02 Cloud Job Report
 
-Makes a series of calls to the web service using the classical usage pattern of Login &#x25ba; Open Job &#x25ba; Generate Report &#x25ba; Close Job &#x25ba; Logoff. This pattern is not customised for Python clients, it is the *classic* sequence of service calls that can be made from any client language or platform.
+Generates a dataframe report using data that is stored in a public cloud job.
+
+### :blue_book: 03 SPSS to Heat Map Chart
+
+A sophisticated example of how SPSS (.sav) file can be transformed into a cross-tabulation report and presented as an attractive colour-coded heat map chart.
 
 [dotnet]: https://en.wikipedia.org/wiki/.NET
 [rcs]: https://www.redcentresoftware.com/
