@@ -21,7 +21,7 @@ def carboncrosstab(topseries : pd.Series, sideseries : pd.Series, colpercents : 
     headers = {'content-type': 'application/json; charset=utf-8','Accept':'application/json','UserID':'16499372','Password': 'C6H12O6'}
     
     try:
-        response = requests.post('https://rcsapps.azurewebsites.net/plutonium/python/crosstab/dataframe', json=postdata,headers=headers)
+        response = requests.post('https://rcsapps.azurewebsites.net/carbon/python/crosstab/dataframe', json=postdata,headers=headers)
         if colpercents:
             freqs=pd.DataFrame(response.json()).astype(float)
             basis=pd.Series([1.0 for x in range(len(topseries.index))])
@@ -40,7 +40,7 @@ def carboncrosstab(topseries : pd.Series, sideseries : pd.Series, colpercents : 
             else:
                 return pd.DataFrame(response.json())
     except:
-        return requests.post('https://rcsapps.azurewebsites.net/plutonium/python/crosstab/dataframe', json=postdata,headers=headers)
+        return requests.post('https://rcsapps.azurewebsites.net/carbon/python/crosstab/dataframe', json=postdata,headers=headers)
 
 def removeCatNaNs(nas:str):
     global df

@@ -8,7 +8,7 @@ This repository contains Python notebooks that demonstrate how to interact with 
 
 The Carbon cross-tabulation library is written using the Microsoft .NET software platform and therefore cannot be invoked directly from the Python runtime. A public web service has been created by [Red Centre Software][rcs] to act as a *bridge* between Python and Carbon. The web service follows standard REST style conventions and the API and Swagger documentation are available at this address:
 
-<https://rcsapps.azurewebsites.net/plutonium/swagger/>
+<https://rcsapps.azurewebsites.net/carbon/swagger/>
 
 There is currently only one endpoint that has been customised for Python clients, but others many be published in the future to make more of the underlying API available to developers in a *Pythonic* manner.
 
