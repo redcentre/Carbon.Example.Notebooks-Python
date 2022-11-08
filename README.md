@@ -18,17 +18,21 @@ Initial research has proven that Python can make direct calls to the Carbon API 
 
 ## Sample Notebooks
 
-### :blue_book: 01 Simple Report
+### :blue_book: 01 Alphacodes Simple
 
-Converts two arrays of static data into a cross-tabulation dataframe through the service endpoint that has been customised for the simplest possible use by Python clients.
+Converts two arrays of static data into a pandas dataframe through the service endpoint that has been customised for the simplest possible use by Python clients.
 
-### :blue_book: 02 Cloud Job Report
+### :blue_book: 02 Alphacodes Formats
 
-Generates a dataframe report using data that is stored in a public cloud job.
+Similar to Example 01, but it shows the variety of data formats that can be passed to the service endpoint.
+
+### :blue_book: 03 Cloud Job Report
+
+Generates a pandas dataframe and report using data that is stored in a public cloud job.
 
 ### :blue_book: 03 SPSS to Heat Map Chart
 
-A sophisticated example of how SPSS (.sav) file can be transformed into a cross-tabulation report and presented as an attractive colour-coded heat map chart.
+A sophisticated example of how an SPSS (.sav) file can be transformed into a cross-tabulation report and presented as an attractive colour-coded heat map chart and line chart.
 
 > :star: Note &mdash; The 21MB data file read by this example can be downloaded from here: [Demo_21_24_with_Caseid.sav][sav]
 
