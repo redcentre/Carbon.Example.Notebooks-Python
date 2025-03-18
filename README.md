@@ -28,6 +28,9 @@ Similar to Example 01, but it shows the variety of data formats that can be pass
 
 ### :blue_book: 03 Cloud Job Report
 
+> :construction: This feature was experimental and has been withdrawn. The ability to generate a report from a Ruby job
+stored in a cloud container may be restored in the future based upon technical and client demands.
+
 Generates a pandas dataframe and report using data that is stored in a public cloud job.
 
 ### :blue_book: 03 SPSS to Heat Map Chart
